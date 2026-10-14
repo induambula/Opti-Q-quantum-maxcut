@@ -1,0 +1,13 @@
+{
+  "name": "Processor A",
+  "description": "Illustrative linear-chain topology for routing experiments",
+  "num_qubits": 6,
+  "coupling_edges": [
+    [0, 1],
+    [1, 2],
+    [2, 3],
+    [3, 4],
+    [4, 5]
+  ],
+  "status": "illustrative_only_not_verified_official"
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "processor": "Processor A",
+        "circuit_depth": 53,
+        "swap_count": 0,
+        "two_qubit_gates": 33,
+        "topology_status": "illustrative_only_not_verified_official"
+    },
+    {
+        "processor": "Processor B",
+        "circuit_depth": 40,
+        "swap_count": 0,
+        "two_qubit_gates": 27,
+        "topology_status": "illustrative_only_not_verified_official"
+    }
+]
