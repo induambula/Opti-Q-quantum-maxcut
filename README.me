@@ -1,32 +1,32 @@
-# Opti-Q: Quantum Max-Cut Optimization
+Opti-Q: Quantum Max-Cut Optimization
 
-**Team Name:** Opti-Q
+Team Name: Opti-Q
 
-**Project Name:** Quantum Max-Cut Optimization
+Project Name: Quantum Max-Cut Optimization
 
-**Team Lead:** Ambula Indu
+Team Lead: Ambula Indu
 
-**Institution:** Rajamahendri Institute of Engineering and Technology (RIET)
+Institution:Rajamahendri Institute of Engineering and Technology (RIET)
 
-**Location:** Rajahmundry, Andhra Pradesh, India
+Location: Rajahmundry, Andhra Pradesh, India
 
-**Domain:** Quantum Optimization
+Domain: Quantum Optimization
 
-**Problem Statement:** PS-O1 — Max-Cut on Weighted Graphs
-
----
-
-## Team Members
-
-1. **A. Indu** — Team Lead
-2. **M. Karthik** — Team Member
-3. **A. Gowri Pavani** — Team Member
-4. **I. Geetika Nandhini** — Team Member
-5. **K. Mohan Chandra** — Team Member
+Problem Statement: PS-O1 — Max-Cut on Weighted Graphs
 
 ---
 
-## 1. Project Overview
+ Team Members
+
+1. A. Indu** — Team Lead
+2. M. Karthik** — Team Member
+3. A. Gowri Pavani** — Team Member
+4. I. Geetika Nandhini** — Team Member
+5. K. Mohan Chandra** — Team Member
+
+---
+
+ 1. Project Overview
 
 Opti-Q is a quantum optimization project that explores
 the Weighted Max-Cut problem using the Quantum Approximate
@@ -36,15 +36,15 @@ The project compares classical optimization results with
 QAOA simulation results and investigates how processor
 connectivity affects quantum circuit routing.
 
-## 2. Problem Statement
+ 2. Problem Statement
 
-**PS-O1: Max-Cut on Weighted Graphs**
+//PS-O1: Max-Cut on Weighted Graphs//
 
 The objective is to divide the vertices of a weighted graph
 into two groups such that the total weight of edges connecting
 the two groups is maximized.
 
-## 3. Project Objectives
+ 3. Project Objectives
 
 - Solve the Weighted Max-Cut problem.
 - Calculate the classical optimal cut value.
@@ -54,7 +54,7 @@ the two groups is maximized.
 - Visualize the weighted graph and benchmark results.
 - Study the effect of processor connectivity on circuit routing.
 
-## 4. Technologies Used
+ 4. Technologies Used
 
 - Python
 - Qiskit
@@ -66,40 +66,40 @@ the two groups is maximized.
 - Jupyter Notebook
 - Visual Studio Code
 
-## 5. Methodology
+ 5. Methodology
 
-### Step 1: Graph Construction
+Step 1: Graph Construction
 
 A weighted graph containing six vertices is used for the
 Max-Cut optimization problem.
 
-### Step 2: Classical Optimization
+ Step 2: Classical Optimization
 
 All possible vertex partitions are evaluated to determine
 the classical optimal cut value.
 
-### Step 3: QAOA Implementation
+Step 3: QAOA Implementation
 
 A QAOA circuit with p = 1 is constructed using Hadamard,
 RZZ, and RX gates, followed by measurement.
 
-### Step 4: Parameter Optimization
+ Step 4: Parameter Optimization
 
 The gamma and beta parameters are optimized using a
 classical optimization method.
 
-### Step 5: Processor Benchmarking
+ Step 5: Processor Benchmarking
 
 The circuit is transpiled using two illustrative processor
 coupling topologies to investigate circuit depth and
 routing overhead.
 
-### Step 6: Visualization
+ Step 6: Visualization
 
 The weighted graph and processor benchmark results are
 visualized using Matplotlib.
 
-## 6. Results and Analysis
+6. Results and Analysis
 
 The classical optimization produced a maximum weighted
 cut value of 16 for the current graph.
@@ -114,7 +114,7 @@ directory for further analysis.
 Refer to the generated result files for the numerical
 measurements from each run.
 
-## 7. Project Structure
+7. Project Structure
 
 Opti-Q2/
 |
@@ -148,13 +148,13 @@ Opti-Q2/
 |       |-- qaoa_results.json
 |       |-- processor_comparison.json
 
-## 8. Installation
+8. Installation
 
 Install the required dependencies using:
 
     py -m pip install -r requirements.txt
 
-## 9. How to Run the Project
+ 9. How to Run the Project
 
 Run the main program:
 
@@ -167,7 +167,7 @@ Run the processor benchmark:
 Open Main.ipynb in Visual Studio Code to view the
 implementation, results, and visualizations.
 
-## 10. Important Notes
+10. Important Notes
 
 Processor A and Processor B currently use illustrative
 coupling topologies for routing experiments. Their
@@ -180,7 +180,7 @@ transpilation, not execution on physical quantum hardware.
 Benchmark conclusions should be interpreted in the context
 of the selected illustrative topologies.
 
-## 11. Future Improvements
+11. Future Improvements
 
 - Validate processor topologies against official specifications.
 - Improve QAOA parameter optimization.
@@ -189,7 +189,7 @@ of the selected illustrative topologies.
 - Test with verified processor configurations.
 - Extend the analysis to larger weighted graphs.
 
-## 12. Conclusion
+ 12. Conclusion
 
 Opti-Q demonstrates a workflow for solving the Weighted
 Max-Cut problem using classical optimization and QAOA.
