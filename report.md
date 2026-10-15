@@ -4,10 +4,10 @@
 
 **Team Name:** Opti-Q
 
-**Team Lead:** Ambula Indu
+**Team Lead:** A.Indu
 
 **Team Members:**
-1. Ambula Indu
+1. A. Indu
 2. M. Karthik
 3. A. Gowri Pavani
 4. I. Geetika Nandhini
